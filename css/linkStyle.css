@@ -1,0 +1,25 @@
+a {
+  text-decoration : none;
+}
+
+a:link {
+  color : #aa9c9b;
+}
+
+a:visited {
+  color : #aa9c9b;
+}
+
+a:hover {
+  color : #d4c9c8;
+}
+
+a:active {
+  color : #d4c9c8;
+}
+
+h2 {
+  display : inline-block;
+  padding : 0;
+  margin : 0;
+}

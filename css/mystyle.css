@@ -1,0 +1,179 @@
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+body {
+  background-color : #001219;
+  color : #f8edeb;
+  font-family : 'Ubuntu-Medium';
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
+  box-sizing : border-box;
+  margin : 0;
+}
+
+
+header {
+  background-color : #023047;
+}
+
+footer {
+  background-color : #023047;
+}
+
+main {
+  flex : 1;
+}
+
+ul.menu {
+  display : flex;
+  list-style-type : none;
+}
+
+li.menu-item:first-child {
+  padding-right : 20px;
+}
+
+li.menu-item:not(:first-child) {
+  padding : 0 20px;
+}
+
+
+div.wrapper {
+  margin : 3em;
+}
+
+div.postWrapper {
+  margin : 3em 0;
+  display : flex;
+  flex-direction : row;
+}
+
+div.textDescription {
+  flex : 1;
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : flex-start;
+  padding : 1em;
+}
+
+div.verticalSpace {
+  height : 30px;
+}
+
+div.center {
+  display : flex;
+  justify-content : center;
+}
+
+
+.page-numbers {
+  padding : 5px 10px;
+  margin : 5px;
+  border : 1px solid #f8edeb;
+  border-radius : 5px;
+}
+
+div.userInfo {
+  display : flex;
+  flex-direction : row;
+  align-items : center;
+}
+
+div.userInfo > * {
+  padding-right : 20px; 
+}
+
+img.avatar {
+  border-radius : 50%;
+}
+
+
+
+div.tags {
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+  justify-content : flex-start;
+  align-items : center;
+}
+
+div.tags > * {
+  padding-right : 10px;
+}
+
+div.eachTag {
+  border : 1px solid #f8edeb;
+  border-radius : 5px;
+  padding : 5px 10px;
+  margin-right : 10px;
+}
+
+
+div.categories {
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+  justify-content : flex-start;
+  align-items : center;
+}
+
+
+div.categories > * {
+  padding-right : 10px;
+}
+
+div.eachCategory {
+  border : 1px solid #f8edeb;
+  border-radius : 5px;
+  padding : 5px 10px;
+  margin-right : 10px;
+}
+
+
+
+
+div.postInformation {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+  padding : 1em;
+}
+
+
+
+div.postContent {
+  padding : 5em 0;
+}
+
+
+form.search-form {
+  display : flex;
+  flex-direction : row;
+  align-items : center;
+  padding : 1em 0;
+  font-family : inherit;
+}
+
+input.search-field {
+  border : 1px solid #f8edeb;
+  border-radius : 5px;
+  padding : 5px 10px;
+  margin-right : 10px;
+  width : 50%;
+  font-family : inherit;
+}
+
+
+input.search-submit {
+  border : 1px solid #f8edeb;
+  border-radius : 5px;
+  padding : 5px 10px;
+  cursor : pointer;
+  color : black;
+  font-family : inherit;
+}
